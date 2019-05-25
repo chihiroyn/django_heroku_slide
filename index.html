@@ -64,6 +64,9 @@
 								<li>
 									諸々のコミュニティでは、「やなさん」で通しています。
 								</li>
+                                <li>
+                                    <a href="https://twitter.com/chihiro_yy">Twitter</a>
+                                </li>
 							</ul>
 						</li>
 						<br>
@@ -115,7 +118,7 @@ Ruby on Rails・Yiiなど（しかし、コードはほとんど書いてませ�
                 <section data-markdown style="font-size: 60%">
 ### 作ってみたサイト
 connpassで公開されているIT勉強会を検索できる。  
-https://it-event-search.herokuapp.com/
+https://it-event-search.herokuapp.com/  
 まずは！　ただそれだけ。
                 </section>
 
@@ -129,6 +132,7 @@ https://it-event-search.herokuapp.com/
 ### Herokuとは？
 - 【HEROKUとは】これを読めばOK!デプロイの仕方まで徹底解説（TECH::NOTE）
     - [https://tech-camp.in/note/technology/16108/](https://tech-camp.in/note/technology/16108/)
+
 ### 他の選択肢との比較
 - 個人開発者向けサーバ環境の選び方まとめ（heroku,aws,firebaseなどなど） @you8さん
     - [https://qiita.com/you8/items/670bfa6573cec2494c96](https://qiita.com/you8/items/670bfa6573cec2494c96)
@@ -139,23 +143,64 @@ https://it-event-search.herokuapp.com/
                 </section>
 
                 <section data-markdown style="font-size: 60%">
-### そしてHerokuにデプロイ……ここで事件は起きた！
+### そしてHerokuにデプロイ……
 - DjangoアプリをHerokuにデプロイする[その1] @Shitimi_613さん
     - [https://qiita.com/Shitimi_613/items/6627d0ce042d38b86893](https://qiita.com/Shitimi_613/items/6627d0ce042d38b86893)
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### ここで事件は起きた！
+                </section>
+
+                <section data-markdown style="font-size: 60%">
 ディレクトリ構成違ぇ……。  
-manage.pyとかプロジェクトディレクトリを、ホームの一段下のディレクトリに入れちゃったよ……。
+manage.pyとかプロジェクトのディレクトリを、  
+ホームの「一段下のディレクトリ」に入れちゃったよ……。
                 </section>
 
                 <section data-markdown style="font-size: 60%">
 ### 気を取り直して、立て直し……
 - Gitリポジトリから作り直し
-    - 今から考えると、そこまでする必要はなかったかも。
+    - 今から考えると、そこまでする必要はなかったかも……。
                 </section>
 
                 <section data-markdown style="font-size: 60%">
-### 気を取り直して、立て直し……
-- Gitリポジトリから作り直し
-    - 今から考えると、そこまでする必要はなかったかも。
+### そしてどうにか公開！
+- とはいえ、まだ検索サービスとして、他人様に使っていただけるほどの  
+アドバンテージはなんにも無し。
+- これから細々と機能追加を頑張ります。
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### 「ひとりKPT」
+- Keep（今後も続けていきたいこと）
+- Problem（今後は繰り返さないようにしたいこと）
+- Try（今後試みたいこと）
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### Keep（今後も続けていきたいこと）
+- 「まず作ってみる」の精神
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### Problem（今後は繰り返さないようにしたいこと）
+- 一通り実装してしまった後、公開環境にデプロイしようとして、  
+根本的な誤りに気づいた  
+→ 先に公開環境で動作させてみてから、  
+実装を進めた方が良かった。
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### Try（今後試みたいこと）
+- 作ったサービスへの機能の追加  
+-- 開催地域を検索条件に指定できるようにするとか  
+-- ユーザーが興味をひかれそうな勉強会をお勧めするとか
+- Google Apps Engine（GoogleのPaas）での構築
+                </section>
+
+                <section data-markdown style="font-size: 60%">
+### ご静聴、ありがとうございました！
                 </section>
 
 			</div>
